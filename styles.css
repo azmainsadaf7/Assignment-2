@@ -509,7 +509,10 @@ margin-top: 30px;
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
-
+.marq{
+    color: orange;
+    font-size: 2rem;
+}
 @media screen and (max-width: 576px) {
     .hc{
         display: none;
@@ -521,8 +524,8 @@ margin-top: 30px;
         display: flex;
         flex-direction: column-reverse;
     }
-    .banner-head h3{
-        
+    .banner-img{
+        margin-left: 190px;
     }
     .emp{
         margin-top: 30px;
@@ -572,5 +575,8 @@ margin-top: 30px;
     }
     .stories-h3{
         margin-left: -180px;
+    }
+    .stories-bg{
+        display: none;
     }
 }
