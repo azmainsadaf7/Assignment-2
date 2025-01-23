@@ -76,7 +76,7 @@ body{
     font-size: 2.5em;
     font-weight: bold;
     margin: 0;
-    line-height: 0.5; 
+    line-height: 1.1; 
 }
 .banner-img {
 
@@ -524,6 +524,9 @@ margin-top: 30px;
     .banner-head h3{
         
     }
+    .emp{
+        margin-top: 30px;
+    }
     .middle-content{
         display: flex;
         flex-direction: column;
@@ -545,8 +548,29 @@ margin-top: 30px;
         display: flex;
         flex-direction: column;
     }
-    .middle-h3{
-        margin-top: -50px;
-    }
+    .middle{
+        width: 300px;
+        margin-left: -20px;
 
+    }
+    .middle-h3{
+        width: 200px;
+        justify-content: left;
+        text-align: start;
+    }
+    .stories{
+        width: 100%;
+    }
+    .grid-box{
+        margin-left: -100px;
+    }
+    .middle-h3{
+        
+        text-align: left;
+        margin-left: 20px;
+       
+    }
+    .stories-h3{
+        margin-left: -180px;
+    }
 }
